@@ -8,7 +8,7 @@ import mealsImage from "../../assets/meals.jpg"
         <h1>
             ReactMeals
         </h1>
-        <HeaderCartButton>Cart</HeaderCartButton>
+        <HeaderCartButton onClick={props.onShowCart}>Cart</HeaderCartButton>
         </header>
         <div className={classes['main-image']}>
             <img src={mealsImage} alt="L'Buffet"/>
